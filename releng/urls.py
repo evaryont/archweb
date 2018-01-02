@@ -1,7 +1,7 @@
 from django.conf.urls import include, url
 
 from .views import ReleaseListView, ReleaseDetailView
-import views
+from releng import views
 
 feedback_patterns = [
     url(r'^$', views.test_results_overview, name='releng-test-overview'),
