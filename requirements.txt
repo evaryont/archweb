@@ -9,3 +9,4 @@ jsmin==2.2.2
 pgpdump==1.5
 pytz>=2017.3
 mock==2.0.0
+django-jinja==2.4.1
